@@ -1,8 +1,8 @@
 // CampusEats task list
 const tasks = [
-  "Design the menu screen",
-  "Build the orders API",
-  "Add user login",
+  { title: "Design the menu screen", dueDate: "2026-10-01" },
+  { title: "Build the orders API", dueDate: "2026-10-08" },
+  { title: "Add user login", dueDate: "2026-10-15" },
 ];
 
 console.log(`CampusEats has ${tasks.length} open tasks`);
